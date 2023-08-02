@@ -9,6 +9,4 @@ apt-get install -y --allow-unauthenticated --no-install-recommends deb-multimedi
 apt-get autoremove -y --purge
 apt-get clean
 rm -rf /var/lib/apt/lists/*
-mkdir -p $HOME/.config/vapoursynth
-echo "UserPluginDir=/usr/local/lib/vapoursynth" > $HOME/.config/vapoursynth/vapoursynth.conf
 EOF
